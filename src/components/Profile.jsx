@@ -15,13 +15,6 @@ const Profile = () => {
                     <div>Post 3</div>
                     <div>Post 4</div>
                     <div>Post 5</div>
-                    <div>Post 5</div>
-                    <div>Post 5</div>
-                    <div>Post 5</div>
-                    <div>Post 5</div>
-                    <div>Post 5</div>
-                    <div>Post 5</div>
-                    <div>Post 5</div>
                 </div>
             </div>
         </div>
