@@ -1,6 +1,8 @@
+import c from './Profile.module.css'
+
 const Profile = () => {
     return (
-        <div className='content'>
+        <div className={c.content}>
             <div>
                 <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_image_Processing.jpg"
                      alt="image"/>
@@ -10,11 +12,8 @@ const Profile = () => {
                 my post
                 <div>New Post</div>
                 <div>
-                    <div>Post 1</div>
-                    <div>Post 2</div>
-                    <div>Post 3</div>
-                    <div>Post 4</div>
-                    <div>Post 5</div>
+                    <div className={c.item}>Post 1</div>
+                    <div className={c.item}>Post 2</div>
                 </div>
             </div>
         </div>
