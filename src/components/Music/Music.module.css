@@ -1,0 +1,17 @@
+.nav {
+    grid-area: n;
+    background-color: burlywood;
+}
+.item a {
+    color: #ffffff;
+    font-size: 18px;
+}
+.item.active a {
+    color: gold;
+}
+ul {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

@@ -1,24 +1,22 @@
 import navbar from './Nav.module.css'
-
-console.log(navbar)
 const Nav = () => {
     return (
         <nav className={navbar.nav}>
             <ul>
                 <li className={`${navbar.item} ${navbar.active}`}>
-                    <a href="">Profile</a>
+                    <a href="/profile">Profile</a>
                 </li>
                 <li className={navbar.item}>
-                    <a href="">Messages</a>
+                    <a href="/dialogs">Messages</a>
                 </li>
                 <li className={navbar.item}>
-                    <a href="">News</a>
+                    <a href="/news">News</a>
                 </li>
                 <li className={navbar.item}>
-                    <a href="">Music</a>
+                    <a href="/music">Music</a>
                 </li>
                 <li className={navbar.item}>
-                    <a href="">Settings</a>
+                    <a href="/settings">Settings</a>
                 </li>
             </ul>
         </nav>
