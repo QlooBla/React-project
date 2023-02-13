@@ -1,16 +1,20 @@
-import c from './MyPost.module.css'
+import c from './MyPosts.module.css'
+import Post from "./Post/Post";
 
-const MyPost = () => {
+const MyPosts = () => {
     return (
         <div>
-            my post
-            <div>New Post</div>
+            My posts
             <div>
-                <div className={c.item}>Post 1</div>
-                <div className={c.item}>Post 2</div>
+                <textarea cols="30" rows="10"></textarea>
+                <button>Add new post</button>
             </div>
-
+            <div>New Post</div>
+            <div className={c.posts}>
+                <Post likesCol = '5' age = "Валера"/>
+                <Post likesCol = '2' age = "Артёмка"/>
+            </div>
         </div>
     )
 }
-export default MyPost;
+export default MyPosts;

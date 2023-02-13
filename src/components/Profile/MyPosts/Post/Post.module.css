@@ -1,6 +1,12 @@
 .item {
     color: green;
+    display: flex;
+    align-items: center;
 }
 .item img {
     width: 75px;
+    border-radius: 50%;
+    height: 75px;
+    object-fit: cover;
 }
+
