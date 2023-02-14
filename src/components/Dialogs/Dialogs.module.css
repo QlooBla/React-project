@@ -1,0 +1,28 @@
+.body {
+    padding: 15px;
+}
+.dialogs {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+}
+.dialogs-items {
+
+}
+.dialog a{
+    color: #fff;
+}
+.dialog.active {
+    color: gold;
+}
+.messages{
+
+}
+.message{
+    color: #fff;
+}
+.title {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}

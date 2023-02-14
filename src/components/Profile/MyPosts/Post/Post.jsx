@@ -5,7 +5,7 @@ const Post = (props) => {
         <div className={c.body}>
             <div className={c.item}>
                 <img src="https://static.1tv.ru/uploads/photo/image/2/huge/4062_huge_876c41f50e.jpg" alt="image"/>
-                { props.age}
+                {props.age}
             </div>
             <div>
                 <span>likes: {props.likesCol}</span>
