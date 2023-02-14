@@ -12,6 +12,12 @@
     gap: 10px;
     margin-bottom: 15px;
 }
+.form__body textarea {
+    min-height: 150px;
+    padding: 7px;
+    font-size: 15px;
+    resize: vertical;
+}
 .posts {
     display: flex;
     flex-direction: column;

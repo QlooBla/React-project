@@ -1,14 +1,14 @@
-import c from './Post.module.css'
+import s from './Post.module.css'
 
 const Post = (props) => {
     return (
-        <div className={c.body}>
-            <div className={c.item}>
+        <div className={s.body}>
+            <div className={s.body__item}>
                 <img src="https://static.1tv.ru/uploads/photo/image/2/huge/4062_huge_876c41f50e.jpg" alt="image"/>
-                {props.age}
+                <p className={s.body__textPost}>{props.age}</p>
             </div>
-            <div>
-                <span>likes: {props.likesCol}</span>
+            <div className={s.body__likes}>
+                <span>likes: {props.likesCount}</span>
             </div>
         </div>
 
