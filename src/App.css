@@ -9,9 +9,12 @@ a {
 ul, li {
     list-style: none;
 }
+.wrapper {
+    width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+}
 .app-wrapper {
-    width: 1300px;
-    margin: 0 auto;
     display: grid;
     grid-template-areas:
     'h h h'
@@ -19,8 +22,14 @@ ul, li {
     grid-template-rows: 60px 1fr;
     grid-template-columns: 2fr 10fr;
 }
+.container {
+    max-width: 1330px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
 .content {
     grid-area: c;
     background: cornflowerblue;
+
 }
 
