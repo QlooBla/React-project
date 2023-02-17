@@ -9,7 +9,10 @@ const MyPosts = () => {
         {id: 3, message: 'Текст поста 3', likesCount: 11},
         {id: 4, message: 'Текст поста 4', likesCount: 634},
         {id: 5, message: 'Текст поста 5', likesCount: 1},
+        {id: 6, message: 'Текст поста 6', likesCount: 2},
     ]
+
+    let postElements = postData.map(postEl => <Post likesCount = {postEl.likesCount} age = {postEl.message}/>)
 
     return (
         <div className={s.body}>
@@ -20,11 +23,7 @@ const MyPosts = () => {
             </form>
             <h2 className={s.title}>Посты</h2>
             <div className={s.posts}>
-                <Post likesCount = {postData[0].likesCount} age = {postData[0].message}/>
-                <Post likesCount = {postData[1].likesCount} age = {postData[1].message}/>
-                <Post likesCount = {postData[2].likesCount} age = {postData[2].message}/>
-                <Post likesCount = {postData[3].likesCount} age = {postData[3].message}/>
-                <Post likesCount = {postData[4].likesCount} age = {postData[4].message}/>
+                {postElements}
             </div>
         </div>
     )
